@@ -1,0 +1,49 @@
+lang ::= loc EOL.
+
+loc ::= label_line.
+loc ::= code_alpha_line.
+loc ::= code_cmp_line.
+loc ::= code_jmp_line.
+loc ::= code_draw_line.
+loc ::= code_move_line.
+loc ::= code_stop_line.
+
+label_line ::= LABEL.
+
+immediate ::= LABEL.
+immediate ::= raw_value.
+
+raw_value ::= number.
+raw_value ::= CHARACTER.
+
+number ::= NUMBER.
+number ::= plus_or_minus NUMBER.
+
+plus_or_minus ::= PLUS.
+plus_or_minus ::= MINUS.
+
+letter ::= BLANK.
+letter ::= CHARACTER.
+
+code_alpha_line ::= ALPHA CHARACTER.
+code_alpha_line ::= ALPHA STRING.
+
+code_cmp_line ::= code_cmp_inst letter.
+code_cmp_inst ::= CMP.
+code_cmp_inst ::= OR.
+
+code_jmp_line ::= code_jmp_inst immediate.
+code_jmp_inst ::= JMP.
+code_jmp_inst ::= JE.
+code_jmp_inst ::= JNE.
+
+code_draw_line ::= DRAW letter.
+code_draw_line ::= ERASE.
+
+code_move_line ::= code_move_inst.
+code_move_line ::= code_move_inst number.
+code_move_inst ::= LEFT.
+code_move_inst ::= RIGHT.
+
+code_stop_line ::= HALT.
+code_stop_line ::= FAIL.

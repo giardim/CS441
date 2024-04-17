@@ -1,0 +1,55 @@
+Halted after 104 moves and 481 instructions executed
+ababa
+^
+
+Halted after 7 moves and 43 instructions executed
+a
+^
+
+Halted after 7 moves and 47 instructions executed
+b
+^
+
+Halted after 11 moves and 67 instructions executed
+a
+^
+
+Halted after 12 moves and 77 instructions executed
+b
+^
+
+Halted after 31 moves and 160 instructions executed
+ab
+^
+
+Halted after 24 moves and 130 instructions executed
+ab
+^
+
+Halted after 1272 moves and 5316 instructions executed
+babababababababababa
+^
+
+Halted after 2001 moves and 8343 instructions executed
+ababababababababababababa
+^
+
+Halted after 1794 moves and 7440 instructions executed
+babababababababa
+^
+
+Halted after 0 moves and 7 instructions executed
+
+^
+
+Halted after 161 moves and 808 instructions executed
+ba
+^
+
+Halted after 1641 moves and 6820 instructions executed
+ababababababababababab
+^
+
+Totals across add tapes...
+7065 moves
+29739 instructions
